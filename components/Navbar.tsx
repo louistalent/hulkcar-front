@@ -112,8 +112,8 @@ const Navbar = () => {
                             <div className="dark:bg-[#2A2B2D] bg-[#F7F7F7] px-3 py-3 rounded-full cursor-pointer">
                                 <IoCalculatorOutline className="h-[24px] w-[24px] dark:text-[#868686]" />
                             </div>
-                            <div className="justify-between items-stretch bg-black dark:bg-zinc-50 self-stretch flex gap-2 px-6 py-3 rounded-[51px] max-md:px-5">
-                                <svg
+                            {/* <div className="justify-between items-stretch bg-black dark:bg-zinc-50 self-stretch flex gap-2 px-6 py-3 rounded-[51px] max-md:px-5"> */}
+                                {/* <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="25"
                                     height="24"
@@ -125,11 +125,11 @@ const Navbar = () => {
                                         // fill="#C7C8CA"
                                         className="fill-[#C7C8CA] dark:fill-black"
                                     />
-                                </svg>
-                                <button className="text-white dark:text-neutral-900 text-base font-medium leading-6 grow whitespace-nowrap self-start">
-                                    Connect Wallet
-                                </button>
-                            </div>
+                                </svg> */}
+                                {/* <button className="w3m-button text-white dark:text-neutral-900 text-base font-medium leading-6 grow whitespace-nowrap self-start"> */}
+                                    <w3m-button />
+                                {/* </button> */}
+                            {/* </div> */}
                             <div className="dark:bg-[#2A2B2D] bg-[#F7F7F7] px-3 py-3 rounded-full relative cursor-pointer">
                                 <span className="bg-green-600 text-slate-50 px-1 text-xs rounded-full absolute top-0 right-0">
                                     2
@@ -177,7 +177,7 @@ const Navbar = () => {
 
                 {/* Mobile Navbar */}
 
-                <div className="mf:hidden justify-between items-center h-auto bg-black dark:bg-[#f7f7f7]  flex gap-1 mf:px-6 p-2 max-xsm:py-1  rounded-[51px] ">
+                {/* <div className="mf:hidden justify-between items-center h-auto bg-black dark:bg-[#f7f7f7]  flex gap-1 mf:px-6 p-2 max-xsm:py-1  rounded-[51px] ">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="25"
@@ -192,9 +192,11 @@ const Navbar = () => {
                             className="fill-[#C7C8CA] dark:fill-black"
                         />
                     </svg>
-                    <button className="text-white max-xsm:text-[10px] dark:text-black text-xs font-normal leading-6  whitespace-nowrap self-start h-full flex items-center">
-                        Connect Wallet
+                    <button className="w3m-button text-white max-xsm:text-[10px] dark:text-black text-xs font-normal leading-6  whitespace-nowrap self-start h-full flex items-center">
+                      Wallet Connect
                     </button>
+                </div> */}
+                <div className="mf:hidden">
                     <w3m-button />
                 </div>
             </div>

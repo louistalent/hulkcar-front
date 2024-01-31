@@ -7,20 +7,26 @@
 ::-webkit-scrollbar {
     width: 5px;
 }
- 
+
 /* Track */
 ::-webkit-scrollbar-track {
     background: #fafafa;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: #555;
     border-radius: 5px;
     height: 20px;
 }
- 
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #FAF9F6;
+}
+
+.w3m-button button {
+    background: transparent !important;
+    border: none !important;
+    padding: 3px !important;
 }
