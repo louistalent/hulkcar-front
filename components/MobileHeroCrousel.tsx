@@ -20,7 +20,7 @@ const MobileHeroCrousel = () => {
         centerMode={true}
         centerPadding="94px"
         initialSlide={2}
-        afterChange={(current) => setCurrent(current)}
+        afterChange={(current:any) => setCurrent(current)}
       >
         {Array.from({ length: 10 }).map((_, index) => (
           <div key={index} className="mx-1">
