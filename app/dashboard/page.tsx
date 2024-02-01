@@ -14,7 +14,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <section className="min-h-screen overflow-x-hidden mf:p-10 px-3 py-10 dark:bg-[#141518]">
+    <section className="min-h-screen overflow-x-hidden mf:p-10 px-3 py-10 bg-[#FFFFFF] dark:bg-[#141518]">
       <div className="grid lg:grid-cols-3  grid-cols-1 gap-6 mt-16">
         <div className="col-span-2 flex flex-col gap-6">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-6">

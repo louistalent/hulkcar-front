@@ -30,3 +30,6 @@
     border: none !important;
     padding: 3px !important;
 }
+.slick-next:before, [dir=rtl] .slick-prev:before,.slick-prev:before{
+    display: none !important;
+}

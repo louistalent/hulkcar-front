@@ -41,13 +41,13 @@ const CarouselCard = ({
                   className="dark:fill-[#FCFCFC] fill-black"
                   // fill="#"
                   stroke="#424242"
-                  stroke-width="1.5"
+                  strokeWidth="1.5"
                 />
                 <path
                   d="M18 11L12.5 16.5L10 14"
                   // stroke="#10141A"
                   className="dark:stroke-[#10141A] stroke-white"
-                  stroke-linecap="round"
+                  strokeLinecap="round"
                   stroke-linejoin="round"
                 />
               </svg>

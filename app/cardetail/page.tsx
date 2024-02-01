@@ -2,6 +2,7 @@ import CalculatorDialog from "@/components/cardetails/CalculatorDialog";
 import CarCarousel from "@/components/cardetails/CarCarousel";
 import InvestmentConfirmationDialog from "@/components/cardetails/InvestmentConfirmationDialog";
 import ListOfNft from "@/components/cardetails/ListOfNft";
+import MonthlyRent from "@/components/cardetails/MonthlyRent";
 import NameDropDown from "@/components/cardetails/NameDropDown";
 import NftCarOwner from "@/components/cardetails/NftCarOwner";
 
@@ -27,7 +28,7 @@ const page = () => {
       </div>
 
       <div className="grid  mf:grid-cols-3 grid-cols-1 mt-16 mf:mt-20 gap-5 md:overflow-y-hidden">
-        <CalculatorDialog />
+        <MonthlyRent/>
         <NftCarOwner />
         <ListOfNft />
       </div>

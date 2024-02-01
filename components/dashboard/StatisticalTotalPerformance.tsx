@@ -101,10 +101,10 @@ const StatisticalTotalPerformance = () => {
         <div className="flex gap-5 justify-between items-stretch ">
           <div className="flex flex-col justify-center items-stretch">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-  <path d="M6.14292 8.50146V14.2182"   className="stroke-black dark:stroke-white"     stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M10.0316 5.76562V14.2179"   className="stroke-black dark:stroke-white"      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M13.8578 11.522V14.2178"   className="stroke-black dark:stroke-white"      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9051 1.6665H6.09556C3.37334 1.6665 1.66699 3.59324 1.66699 6.3208V13.6789C1.66699 16.4064 3.3654 18.3332 6.09556 18.3332H13.9051C16.6352 18.3332 18.3337 16.4064 18.3337 13.6789V6.3208C18.3337 3.59324 16.6352 1.6665 13.9051 1.6665Z"   className="stroke-black dark:stroke-white"      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6.14292 8.50146V14.2182"   className="stroke-black dark:stroke-white"     strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
+  <path d="M10.0316 5.76562V14.2179"   className="stroke-black dark:stroke-white"      strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
+  <path d="M13.8578 11.522V14.2178"   className="stroke-black dark:stroke-white"      strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
+  <path fillRule="evenodd" clipRule="evenodd" d="M13.9051 1.6665H6.09556C3.37334 1.6665 1.66699 3.59324 1.66699 6.3208V13.6789C1.66699 16.4064 3.3654 18.3332 6.09556 18.3332H13.9051C16.6352 18.3332 18.3337 16.4064 18.3337 13.6789V6.3208C18.3337 3.59324 16.6352 1.6665 13.9051 1.6665Z"   className="stroke-black dark:stroke-white"      strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
 </svg>
             <span
               className="mt-2 text-sm dark:text-white text-black  whitespace-nowrap"

@@ -14,19 +14,19 @@ const DailySaleSvg = () => {
         <g opacity="0.5"
         className="dark:stroke-white stroke-black"
         >
-          <path d="M28.7705 11H815.983"      stroke-dasharray="4 4" />
-          <path d="M28.7705 43H815.983"      stroke-dasharray="4 4" />
-          <path d="M28.7705 75H815.983"      stroke-dasharray="4 4" />
+          <path d="M28.7705 11H815.983"      strokeDasharray="4 4" />
+          <path d="M28.7705 43H815.983"      strokeDasharray="4 4" />
+          <path d="M28.7705 75H815.983"      strokeDasharray="4 4" />
           <path
             d="M28.7705 108H815.983"
             //     
-            stroke-dasharray="4 4"
+            strokeDasharray="4 4"
           />
         </g>
         <path
           d="M88.3096 100.5L174.712 102L263.359 59L354.25 56L436.164 26L521.445 51L610.092 76.5L698.738 70.5L782.897 26"
         className="dark:stroke-white stroke-black"   
-          stroke-width="3"
+          strokeWidth="3"
         />
         <circle cx="88.3096" cy="100" r="6"   className="dark:fill-white fill-black"     />
         <circle cx="177.169" cy="100" r="6" className="dark:fill-white fill-black"       />

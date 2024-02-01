@@ -30,7 +30,7 @@ export const columns: ColumnDef<Rent>[] = [
         month: "numeric",
         year: "numeric",
       });
-      return <div className="font-medium">{formatted}</div>;
+      return <div className="font-medium max-sm:text-[9px]">{formatted}</div>;
     },
   },
   {
@@ -40,7 +40,7 @@ export const columns: ColumnDef<Rent>[] = [
       return (
         <div className="flex gap-x-2 items-center">
           <NameColumn />
-          <h3 className="text-black dark:text-white font-normal text-base">
+          <h3 className="text-black dark:text-white max-sm:text-[9px] font-normal text-base">
             Bmw Séries 2 #102
           </h3>
         </div>
@@ -54,7 +54,7 @@ export const columns: ColumnDef<Rent>[] = [
       return (
         <div className="flex gap-x-2 items-center">
           <Country country={row.getValue("country") as string} />
-          <h3 className="text-black dark:text-white font-normal text-base">
+          <h3 className="text-black dark:text-white max-sm:text-[9px] font-normal text-base">
             {row.getValue("country")}
           </h3>
         </div>
@@ -68,7 +68,7 @@ export const columns: ColumnDef<Rent>[] = [
       return (
         <div className="flex gap-x-2 items-center">
           <IRate />
-          <h3 className="text-black dark:text-white font-normal text-base">
+          <h3 className="text-black dark:text-white max-sm:text-[9px] font-normal text-base">
             {row.getValue("interestRate")}
           </h3>
         </div>
@@ -82,7 +82,7 @@ export const columns: ColumnDef<Rent>[] = [
       return (
         <div className="flex gap-x-2 justify-end">
           <TxIcon />
-          <h3 className="text-black dark:text-white font-normal text-base">
+          <h3 className="text-black dark:text-white max-sm:text-[9px] font-normal text-base">
             {row.getValue("tx")}
           </h3>
         </div>

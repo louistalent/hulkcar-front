@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -43,9 +43,20 @@ const metadataWallet = {
   icons: ["https://avatars.githubusercontent.com/u/37784886"],
 };
 
-export const wagmiConfig = defaultWagmiConfig({ chains, projectId, metadata: metadataWallet });
-
-createWeb3Modal({ wagmiConfig, projectId, chains });
+export const wagmiConfig = defaultWagmiConfig({
+  chains,
+  projectId,
+  metadata: metadataWallet,
+});
+const featuredWalletIds = [
+  'c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96',//metamask
+  'a797aa35c0fadbfc1a53e7f675162ed5226968b44a19ee3d24385c64d1d3c393' //phantom
+]
+const themeVariables = {
+  '--w3m-color-mix': '#00BB7F',
+  '--w3m-color-mix-strength': 40
+}
+createWeb3Modal({ wagmiConfig, projectId, chains, featuredWalletIds, themeVariables });
 
 import { WagmiConfig } from "wagmi";
 
@@ -63,14 +74,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link
+          rel="stylesheet"
+          type="text/css"
+          charSet="UTF-8"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+        />
+      </head>
       <body className={inter.className}>
-        <WagmiConfig config={wagmiConfig} >
+        <WagmiConfig config={wagmiConfig}>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
-
           >
             <Navbar />
 

@@ -7,8 +7,8 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import MonthlyRent from "./MonthlyRent";
 import { useState } from "react";
+import { IoCalculatorOutline } from "react-icons/io5";
 
 const CalculatorDialog = () => {
   const [estimateAmountOpen, setEstimateAmountOpen] = useState(false);
@@ -16,7 +16,7 @@ const CalculatorDialog = () => {
   return (
     <Dialog>
       <DialogTrigger>
-        <MonthlyRent />
+      <IoCalculatorOutline className="h-[24px] cursor-pointer w-[24px] text-black dark:text-[#868686]"/>
       </DialogTrigger>
       <DialogContent className="bg-primary dark:bg-dark-primary border-none">
         <DialogHeader>
@@ -100,14 +100,14 @@ const CalculatorDialog = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <button
-                      className="dark:text-stone-900 text-sm font-medium leading-5 justify-center items-stretch shadow-sm bg-black text-white mt-5 px-4 py-2.5 rounded-md self-start"
+                      className="dark:text-stone-900 text-sm font-medium leading-5 justify-center items-stretch shadow-sm dark:bg-lime-400 bg-black text-white mt-5 px-4 py-2.5 rounded-md self-start"
                       type="submit"
                       onClick={() => setEstimateAmountOpen(false)}
                     >
                       Cancel
                     </button>
                     <button
-                      className="dark:text-stone-900 text-sm font-medium leading-5 justify-center items-stretch shadow-sm bg-black text-white mt-5 px-4 py-2.5 rounded-md self-start"
+                      className="dark:text-stone-900 text-sm font-medium leading-5 justify-center items-stretch shadow-sm dark:bg-lime-400 bg-black text-white mt-5 px-4 py-2.5 rounded-md self-start"
                       type="submit"
                     >
                       Submit

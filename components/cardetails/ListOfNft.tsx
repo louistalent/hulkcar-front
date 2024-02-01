@@ -5,7 +5,7 @@ import CarOwnerCarousel from "./CarOwnerCarousel";
 
 const ListOfNft = () => {
   return (
-    <div className="dark:bg-[#262729] bg-[#EDEDED] flex-col rounded-tr-2xl rounded-tl-2xl rounded-bl-2xl mf:rounded-bl-none  rounded-br-2xl mf:rounded-br-none w-full px-10 pb-10 pt-6 mf:relative  mf:top-32 mb-10 mf:mb-0">
+    <div className="dark:bg-[#262729] bg-[#EDEDED] flex-col rounded-tr-2xl rounded-tl-2xl rounded-bl-2xl mf:rounded-bl-none  rounded-br-2xl mf:rounded-br-none w-full px-10 pb-10 pt-6 mf:relative mf:top-24">
       <div className="flex items-center justify-between w-full">
         <h1 className="dark:text-[#FCFCFC] text-[#10141A] font-bold md:text-lg text-xs">
           List of your NFT
