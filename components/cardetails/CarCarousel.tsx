@@ -143,7 +143,7 @@ const CarCarousel = () => {
                     ))}
                 </CarouselContent>
                 <Image
-                    className="absolute -bottom-[100px] z-0 w-auto h-[300px]"
+                    className="absolute top-[10%] z-0 w-full h-[300px]"
                     src="/assets/images/car-ellipse.svg"
                     alt="car"
                     width={100}
@@ -152,7 +152,7 @@ const CarCarousel = () => {
                
                 {/* <CarouselPrevious className="bg-[#424242] hover:bg-primary" /> */}
                 {/* <CarouselNext className="bg-[#424242]" /> */}
-                <div className="w-[100px] absolute -bottom-[100px]">
+                <div className="w-[100px] m-auto relative top-3">
                     <div className="flex items-center justify-between bg-white dark:bg-[#2a2b2d] px-4 py-2 rounded-full gap-3">
                         <CustomPrevious>
                             <MdKeyboardArrowLeft className="text-2xl text-black dark:text-slate-50" />
