@@ -18,7 +18,7 @@ const Navbar = () => {
     const [isLight, setIsLight] = useState(true);
     const { setTheme, theme } = useTheme();
 
-    const setLight = ()=>{
+    const setLight = () => {
         setTheme("light");
         setIsLight(false);
         console.log('light')
@@ -291,6 +291,7 @@ const Navbar = () => {
                                 link2="/dashboard"
                                 title="Mint NFT"
                                 alt="Mint NFT"
+                                closeModal={() => {setOpenMenu(false)}}
                             />
                             <MobileLinks
                                 src="/assets/images/Category.svg"
@@ -298,6 +299,7 @@ const Navbar = () => {
                                 link2="/"
                                 title="Dashboard"
                                 alt="Dashboard"
+                                closeModal={() => { setOpenMenu(false) }}
                             />
                             {/* <MobileLinks
                                 src="/assets/images/analy.svg"
@@ -409,16 +411,19 @@ const MobileLinks = ({
     src,
     alt,
     link2,
+    closeModal
 }: {
     link: string;
     title: string;
     src: string;
     alt: string;
     link2: string;
+    closeModal: any
 }) => {
     const pathname = usePathname();
     return (
         <div
+            onClick={closeModal}
             className={` flex items-center justify-start py-1 px-6 cursor-pointer ${pathname === link ? "bg-[#7c8292]" : " bg-transparent"
                 }`}
         >

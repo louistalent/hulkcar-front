@@ -16,7 +16,8 @@ const MyNFT = () => {
               className="aspect-[1.01] object-contain object-center w-[84px] self-center"
             />
             <p className="dark:text-[#FCFCFC] text-center text-xs leading-4 mt-4">
-              {nft.name}
+              <div className=" whitespace-nowrap" dangerouslySetInnerHTML={{ __html: nft.name }}>
+              </div>
             </p>
           </div>
         ))}
@@ -30,38 +31,38 @@ export default MyNFT;
 const myNFTs = [
   {
     srcSet: "/assets/dashboard/carwheel.png",
-    name: "Zoll Rs Spyder Roder - 0.10%",
+    name: "Zoll Rs Spyder <br/> Roder - 0.10%",
   },
   {
     srcSet: "/assets/dashboard/carwheel.png",
-    name: "Zoll Rs Spyder Roder - 0.10%",
+    name: "Zoll Rs Spyder <br/> Roder - 0.10%",
   },
   {
     srcSet: "/assets/dashboard/carwheel.png",
-    name: "Zoll Rs Spyder Roder - 0.10%",
+    name: "Zoll Rs Spyder <br/> Roder - 0.10%",
   },
   {
     srcSet: "/assets/dashboard/carwheel.png",
-    name: "Zoll Rs Spyder Roder - 0.10%",
+    name: "Zoll Rs Spyder <br/> Roder - 0.10%",
   },
   {
     srcSet: "/assets/dashboard/carwheel.png",
-    name: "Zoll Rs Spyder Roder - 0.10%",
+    name: "Zoll Rs Spyder <br/> Roder - 0.10%",
   },
   {
     srcSet: "/assets/dashboard/carwheel.png",
-    name: "Zoll Rs Spyder Roder - 0.10%",
+    name: "Zoll Rs Spyder <br/> Roder - 0.10%",
   },
   {
     srcSet: "/assets/dashboard/carwheel.png",
-    name: "Zoll Rs Spyder Roder - 0.10%",
+    name: "Zoll Rs Spyder <br/> Roder - 0.10%",
   },
   {
     srcSet: "/assets/dashboard/carwheel.png",
-    name: "Zoll Rs Spyder Roder - 0.10%",
+    name: "Zoll Rs Spyder <br/> Roder - 0.10%",
   },
   {
     srcSet: "/assets/dashboard/carwheel.png",
-    name: "Zoll Rs Spyder Roder - 0.10%",
+    name: "Zoll Rs Spyder <br/> Roder - 0.10%",
   },
 ];

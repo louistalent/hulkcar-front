@@ -66,9 +66,10 @@ const CalculatorDialog = () => {
                         className="dark:bg-[#2e2f32] bg-[#F6F6F6] outline-none dark:text-slate-50 text-[#10141A] px-3 py-2 block w-full sm:text-sm rounded-md"
                       >
                         <option value="1 Month">1 Month</option>
-                        <option value="2 Month">2 Month</option>
-                        <option value="3 Month">3 Month</option>
-                        <option value="4 Month">4 Month</option>
+                        <option value="2 Month">3 Month</option>
+                        <option value="3 Month">6 Month</option>
+                        <option value="4 Month">1 Year</option>
+                        <option value="4 Month">2 Years</option>
                       </select>
                     </div>
                   </div>
@@ -105,12 +106,6 @@ const CalculatorDialog = () => {
                       onClick={() => setEstimateAmountOpen(false)}
                     >
                       Cancel
-                    </button>
-                    <button
-                      className="dark:text-stone-900 text-sm font-medium leading-5 justify-center items-stretch shadow-sm dark:bg-lime-400 bg-black text-white mt-5 px-4 py-2.5 rounded-md self-start"
-                      type="submit"
-                    >
-                      Submit
                     </button>
                   </div>
                 </div>

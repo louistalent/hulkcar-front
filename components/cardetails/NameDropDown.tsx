@@ -41,8 +41,11 @@ const NameDropDown = () => {
         </div>
 
         {isDialogVisible && (
-          <div className="md:w-1/2 px-3 shadow-2xl dark:shadow-black shadow-white  bg-primary dark:bg-dark-primary max-h-[400px] overflow-y-auto z-10 absolute md:left-10 left-0 rounded-lg">
-            <Dialog />
+          <div className="">
+            <div onClick={toggleDropDown} className=" fixed left-0 right-0 top-0 bottom-0 z-[1]"></div>
+            <div className="md:w-1/2 px-3 shadow-2xl dark:shadow-black shadow-white  bg-primary dark:bg-dark-primary max-h-[400px] overflow-y-auto z-10 absolute md:left-10 left-0 rounded-lg">
+              <Dialog />
+            </div>
           </div>
         )}
       </div>

@@ -157,7 +157,7 @@ const CarouselContent = React.forwardRef<
   const { carouselRef, orientation } = useCarousel();
 
   return (
-    <div ref={carouselRef} className="overflow-hidden">
+    <div ref={carouselRef} className="overflow-hidden relative z-10">
       <div
         ref={ref}
         className={cn(
@@ -233,7 +233,7 @@ const CustomPrevious = React.forwardRef<
     <button
       ref={ref}
       className={cn(
-        "  h-8 w-8 rounded-full",
+        "  h-8 w-8 rounded-full flex justify-center items-center",
         className
       )}
       disabled={!canScrollPrev}
@@ -285,7 +285,7 @@ const CustomNext = React.forwardRef<
     <button
       ref={ref}
       className={cn(
-        " h-8 w-8 rounded-full",
+        " h-8 w-8 rounded-full flex justify-center items-center",
         className
       )}
       disabled={!canScrollNext}

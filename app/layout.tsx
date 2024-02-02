@@ -53,8 +53,8 @@ const featuredWalletIds = [
   'a797aa35c0fadbfc1a53e7f675162ed5226968b44a19ee3d24385c64d1d3c393' //phantom
 ]
 const themeVariables = {
-  '--w3m-color-mix': '#00BB7F',
-  '--w3m-color-mix-strength': 40
+  // '--w3m-color-mix': '#00BB7F',
+  // '--w3m-color-mix-strength': 40
 }
 createWeb3Modal({ wagmiConfig, projectId, chains, featuredWalletIds, themeVariables });
 

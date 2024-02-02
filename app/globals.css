@@ -33,3 +33,10 @@
 .slick-next:before, [dir=rtl] .slick-prev:before,.slick-prev:before{
     display: none !important;
 }
+
+.statistical-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    transition: all .35s ease 0s;
+    gap: 0.75rem;
+}
