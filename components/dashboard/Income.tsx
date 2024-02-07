@@ -1,5 +1,5 @@
 import React from "react";
-import DailySaleSvg from "./DailySaleSvg";
+import DailySaleChart from "./DailySaleChart";
 
 const Income = () => {
   return (
@@ -40,13 +40,13 @@ const Income = () => {
           <div className="leading-[140%] mt-6 dark:text-white text-black">200</div>
           <div className="leading-[140%] mt-6 dark:text-white text-black">0</div>
         </div> */}
-        <div className="overflow-auto scrollbar-none">
+        <div className="overflow-auto w-full scrollbar-none">
           {/* <img
             loading="lazy"
             srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/cb392a1ccf73a8a4ca79de435f85178a3c6fb7b088897ee4d4f556518aed7371?apiKey=386f6655ee2e4fd59eb38f1897c7f7b2&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb392a1ccf73a8a4ca79de435f85178a3c6fb7b088897ee4d4f556518aed7371?apiKey=386f6655ee2e4fd59eb38f1897c7f7b2&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb392a1ccf73a8a4ca79de435f85178a3c6fb7b088897ee4d4f556518aed7371?apiKey=386f6655ee2e4fd59eb38f1897c7f7b2&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb392a1ccf73a8a4ca79de435f85178a3c6fb7b088897ee4d4f556518aed7371?apiKey=386f6655ee2e4fd59eb38f1897c7f7b2&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb392a1ccf73a8a4ca79de435f85178a3c6fb7b088897ee4d4f556518aed7371?apiKey=386f6655ee2e4fd59eb38f1897c7f7b2&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb392a1ccf73a8a4ca79de435f85178a3c6fb7b088897ee4d4f556518aed7371?apiKey=386f6655ee2e4fd59eb38f1897c7f7b2&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb392a1ccf73a8a4ca79de435f85178a3c6fb7b088897ee4d4f556518aed7371?apiKey=386f6655ee2e4fd59eb38f1897c7f7b2&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/cb392a1ccf73a8a4ca79de435f85178a3c6fb7b088897ee4d4f556518aed7371?apiKey=386f6655ee2e4fd59eb38f1897c7f7b2&"
             className="aspect-[8.33] object-cover object-center w-[787px] my-auto max-md:max-w-full"
           /> */}
-          <DailySaleSvg />
+          <DailySaleChart />
         </div>
       </div>
       {/* <div className="self-center flex w-full max-w-[735px] items-stretch justify-between gap-5 text-sm text-white whitespace-nowrap text-center mt-4 max-md:max-w-full max-md:flex-wrap">

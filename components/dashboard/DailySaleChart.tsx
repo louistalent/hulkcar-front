@@ -2,11 +2,11 @@ import React from "react";
 
 const DailySaleSvg = () => {
   return (
-    <>
+    <div className="w-full">
       <svg
-        width="816"
-        height="142"
-        viewBox="0 0 816 142"
+        width="1300"
+        height="170"
+        viewBox="0 0 1300 170"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         // className="dark:fill-white fill-black"
@@ -89,7 +89,7 @@ const DailySaleSvg = () => {
           className="dark:fill-white fill-black"     
         />
       </svg>
-    </>
+    </div>
   );
 };
 
