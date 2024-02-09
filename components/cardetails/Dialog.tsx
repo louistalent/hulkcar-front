@@ -84,7 +84,7 @@ const carData = [
 
 export default function Dialog() {
   return (
-    <div className="relative">
+    <div className="relative z-20">
       <div className="px-3 py-5 absolute top-0">
         <h1 className="text-2xl md:font-semibold font-medium text-[#10141A] dark:text-[#FCFCFC]">Available Cars</h1>
       </div>
