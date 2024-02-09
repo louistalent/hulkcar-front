@@ -27,6 +27,7 @@ const CarCarousel = () => {
     return (
         <div className="relative">
             <Carousel className="w-full relative">
+                
                 <CarouselContent className="z-10">
                     {Array.from({ length: 5 }).map((_, index) => (
                         <CarouselItem key={index}>
